@@ -16,7 +16,7 @@ describe('Simple Math Test', () => {
         describe('math.subtract() Test', () => {
             it('should equal 0', () => {
                 const result = math.subtract(1, 1);
-                assert.equal(result,2);
+                assert.equal(result,0);
             });
             it('should equal 4', () => {
                 const result = math.subtract(6, 2);
